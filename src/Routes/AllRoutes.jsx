@@ -5,7 +5,7 @@ export const AllRoutes =() => {
     return (
         <>
             <Routes>
-                <Route path="\" element={<MovieList />} />
+                <Route path="/" element={<MovieList />} />
                 <Route path="search" element={<Search />} />
                 <Route path="movie/:id" element={<Moviedetails />} />
                 <Route path="*" element={<PageNotFound />} />
