@@ -9,7 +9,7 @@ export const AllRoutes =() => {
                 <Route path="search" element={<Search />} />
                 <Route path="movie/:id" element={<Moviedetails />} />
                 <Route path="*" element={<PageNotFound />} />
-                <Route pathh="movies/top" element={<MovieList />} />
+                <Route path="movies/top" element={<MovieList />} />
                 <Route path="movies/popular" element={<MovieList />} />
                 <Route path="movies/upcoming" element={<MovieList />} />
             </Routes>
